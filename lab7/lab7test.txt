@@ -1,0 +1,168 @@
+
+	LABEL		Offset 	 LEVEL
+	_t6		18		2
+	_t5		17		2
+	_t4		16		2
+	_t3		15		2
+	_t2		14		2
+	_t1		13		2
+	_t0		12		2
+	x		2		2
+	y		1		1
+	b		0		1
+	f		0		0
+	Z		1		0
+	y		0		0
+
+	LABEL		Offset 	 LEVEL
+	_t13		18		2
+	_t12		17		2
+	_t11		16		2
+	_t10		15		2
+	_t9		14		2
+	_t8		13		2
+	_t7		12		2
+	x		2		2
+	y		1		1
+	b		0		1
+	f		0		0
+	Z		1		0
+	y		0		0
+
+	LABEL		Offset 	 LEVEL
+	y		1		1
+	b		0		1
+	f		0		0
+	Z		1		0
+	y		0		0
+
+	LABEL		Offset 	 LEVEL
+	_t23		11		1
+	_t22		10		1
+	_t21		9		1
+	_t20		8		1
+	_t19		7		1
+	_t18		6		1
+	_t17		5		1
+	_t16		4		1
+	_t15		3		1
+	_t14		2		1
+	arg2		1		1
+	arg1		0		1
+	main		0		0
+	z		101		0
+	f		19		0
+	Z		1		0
+	y		0		0
+
+Finished Parsing
+
+
+
+	LABEL		Offset 	 LEVEL
+	main		12		0
+	z		101		0
+	f		19		0
+	Z		1		0
+	y		0		0
+
+
+AST PRINT 
+
+Variable INT y level 0 offset 0 
+Variable INT Z [100] level 0 offset 1 
+Function INT f level 0 offset 19 
+ Parameter INT b level 1 offset 0
+ Compound Statement 
+  Variable INT y level 1 offset 1 
+  Compound Statement 
+   Variable INT x [10] level 2 offset 2 
+   ASSIGNMENT STATEMENT 
+    VARIABLE x 
+     [ 
+      EXPRESSION operator MINUS 
+       EXPRESSION operator PLUS 
+        NUMBER value 2 
+        NUMBER value 3 
+       NUMBER value 5 
+     ] level 2 offset 2 
+   is assigned 
+    EXPRESSION operator PLUS 
+     VARIABLE b level 1 offset 0 
+     CALL STATEMENT function f 
+     ( 
+      CALL argument 
+       EXPRESSION operator PLUS 
+        NUMBER value 5 
+        EXPRESSION operator TIMES 
+         VARIABLE x 
+          [ 
+           NUMBER value 2 
+          ] level 2 offset 2 
+         VARIABLE b level 1 offset 0 
+     ) level 0 offset 19 
+  Compound Statement 
+   Variable INT x [10] level 2 offset 2 
+   ASSIGNMENT STATEMENT 
+    VARIABLE x 
+     [ 
+      EXPRESSION operator MINUS 
+       EXPRESSION operator PLUS 
+        NUMBER value 2 
+        NUMBER value 3 
+       NUMBER value 5 
+     ] level 2 offset 2 
+   is assigned 
+    EXPRESSION operator PLUS 
+     VARIABLE b level 1 offset 0 
+     CALL STATEMENT function f 
+     ( 
+      CALL argument 
+       EXPRESSION operator PLUS 
+        NUMBER value 5 
+        EXPRESSION operator TIMES 
+         VARIABLE x 
+          [ 
+           NUMBER value 2 
+          ] level 2 offset 2 
+         VARIABLE b level 1 offset 0 
+     ) level 0 offset 19 
+Variable INT z level 0 offset 101 
+Function INT main level 0 offset 12 
+ Parameter INT arg1 level 1 offset 0
+ Parameter INT arg2 []level 1 offset 1
+ Compound Statement 
+  Write Expression 
+   CALL STATEMENT function f 
+   ( 
+    CALL argument 
+     EXPRESSION operator PLUS 
+      EXPRESSION operator MINUS 
+       EXPRESSION operator PLUS 
+        VARIABLE arg1 level 1 offset 0 
+        VARIABLE arg2 
+         [ 
+          EXPRESSION operator PLUS 
+           NUMBER value 3 
+           NUMBER value 5 
+         ] level 1 offset 1 
+       VARIABLE z level 0 offset 101 
+      VARIABLE y level 0 offset 0 
+   ) level 0 offset 19 
+  Write Expression 
+   CALL STATEMENT function f 
+   ( 
+    CALL argument 
+     EXPRESSION operator PLUS 
+      EXPRESSION operator MINUS 
+       EXPRESSION operator PLUS 
+        VARIABLE arg1 level 1 offset 0 
+        VARIABLE arg2 
+         [ 
+          EXPRESSION operator PLUS 
+           NUMBER value 3 
+           NUMBER value 5 
+         ] level 1 offset 1 
+       VARIABLE z level 0 offset 101 
+      VARIABLE y level 0 offset 0 
+   ) level 0 offset 19 

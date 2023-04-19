@@ -1,0 +1,111 @@
+
+Finished Parsing
+
+
+Variable VOID x 
+Variable VOID y 
+Variable VOID z[100] 
+Variable INT x[100] 
+Function INT main 
+ Compound Statement 
+  Variable INT x 
+  Compound Statement 
+   Variable INT y 
+   WHILE STATEMENT 
+    WHILE expression 
+     EXPRESSION operator <= 
+      EXPRESSION operator PLUS 
+       VARIABLE x 
+       EXPRESSION operator / 
+        NUMBER value 5 
+        NUMBER value 2 
+      EXPRESSION operator MINUS 
+       EXPRESSION operator PLUS 
+        NUMBER value 2 
+        VARIABLE z 
+       NUMBER value 5 
+    WHILE body 
+     Compound Statement 
+      IF STATEMENT 
+       IF Expression 
+        EXPRESSION operator >= 
+         EXPRESSION operator MINUS 
+          VARIABLE h 
+          NUMBER value 2 
+         EXPRESSION operator MINUS 
+          NUMBER value 3 
+          NUMBER value 2 
+       IF body 
+        READ STATEMENT 
+         VARIABLE x 
+          [ 
+           NUMBER value 100 
+          ] 
+       ELSE body 
+        Write Expression 
+         EXPRESSION operator PLUS 
+          VARIABLE x 
+           [ 
+            NUMBER value 100 
+           ] 
+          NUMBER value 200 
+      Expression STATEMENT 
+       CALL STATEMENT function f 
+       ( 
+        CALL argument 
+         EXPRESSION operator PLUS 
+          NUMBER value 3 
+          VARIABLE x 
+           [ 
+            VARIABLE x 
+             [ 
+              NUMBER value 100 
+             ] 
+           ] 
+        CALL argument 
+         EXPRESSION operator PLUS 
+          VARIABLE bar 
+          NUMBER value 200 
+        CALL argument 
+         NUMBER value 20 
+       ) 
+      RETURN STATEMENT 
+      RETURN STATEMENT 
+       EXPRESSION operator PLUS 
+        EXPRESSION operator PLUS 
+         VARIABLE x 
+         NUMBER value 5 
+        NUMBER value 7 
+      IF STATEMENT 
+       IF Expression 
+        EXPRESSION operator > 
+         EXPRESSION operator PLUS 
+          VARIABLE x 
+          NUMBER value 10 
+         EXPRESSION operator TIMES 
+          NUMBER value 10 
+          NUMBER value 20 
+       IF body 
+        ASSIGNMENT STATEMENT 
+         VARIABLE x 
+        is assigned 
+         EXPRESSION operator != 
+          VARIABLE x 
+          NUMBER value 10 
+      Write Expression 
+       EXPRESSION operator != 
+        EXPRESSION operator < 
+         NUMBER value 3 
+         NUMBER value 5 
+        EXPRESSION operator >= 
+         NUMBER value 5 
+         NUMBER value 2 
+Function VOID f 
+ Parameter INT x
+ Parameter VOID y
+ Parameter VOID z[]
+ Compound Statement 
+  Expression STATEMENT 
+  Expression STATEMENT 
+  Expression STATEMENT 
+  Expression STATEMENT 

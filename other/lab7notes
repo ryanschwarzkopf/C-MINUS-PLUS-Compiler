@@ -1,0 +1,4 @@
+make sure all variables declared. Tier 1, 2, 3 etc. T_ID
+check types, void+void, int+int. either side of expr is equivalent. operations, assignment, function calls
+	add type to expr, T_NUM
+allocate memory space for operations, 

@@ -1,0 +1,19 @@
+int x;
+create a node
+write preorder print of tree
+
+A-Var
+Type int
+Name
+
+-> S1
+-> S2
+-> next
+
+A_FunDec
+int
+main
+-> S1 parameters
+-> S2 statements
+
+
